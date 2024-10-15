@@ -1,4 +1,4 @@
 # html-css
  Curso de HTML5 e CSS3 do CursoemVideo
 
-Estou aprendenro a criar sites
+Estou aprendendo a criar sites
