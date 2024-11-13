@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        body {
+            height: 98vh;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.866), rgba(255, 255, 255, 0.89)),
+            url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/800px-Santos_Logo.png), linear-gradient(rgba(255, 255, 255, 0.416), rgb(255, 255, 255));
+            background-position: right bottom;
+            background-size: 85px;
+        }
+
+        div.caixa {
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.351), rgb(0, 0, 0)),
+                url(imagens/wallpaper002.jpg);
+            background-size: 600px;
+            background-position: center center;
+            margin: auto;
+            border-radius: 10px;
+            background-color: rgb(175, 175, 175);
+            width: 600px;
+            height: 150px;
+        }
+
+        div h1 {
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        div p {
+            color: white;
+            text-align: center;
+            margin: 0px 50px 50px 50px;
+        }
+
+        div.caixa:hover {
+            transition-delay: 10s;
+            background-image:
+            linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), /* novo gradiente ao passar o mouse */
+            url(imagens/wallpaper002.jpg);
+            background-color: rgb(200, 200, 200);
+            cursor: pointer;
+
+            h1 {
+                color: black;
+            }
+
+            p {
+             color: black;
+            }
+        }
+
+        div p:hover {
+            text-decoration: underline;
+        }
+
+        div h1:hover {
+            text-decoration: underline;
+        }
+
+        body:hover {
+            height: 98vh;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.866), rgba(255, 255, 255, 0.89)),
+            url(https://assets.goal.com/images/v3/bltfb1f4481ecea3d69/GOAL_-_Blank_WEB_-_Facebook_-_2024-04-01T082745.105.png), linear-gradient(rgba(255, 255, 255, 0.416), rgb(255, 255, 255));
+            background-position: right bottom;
+            background-size: 900px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa" id="link1">
+        <h1>Fernando Eric</h1>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit possimus alias optio sit quod repellat! Unde cum facilis odio id sunt delectus ipsum. Saepe accusamus corrupti sequi architecto officia dolore?</p>
+    </div>
+</body>
+</html>
